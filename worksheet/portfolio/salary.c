@@ -28,9 +28,9 @@
 
 
     // Use only these print statement with appropriate formatting and variable names
-   printf("NI contribution \xC2\xA3%.6f\n", ni_con);
-   printf("Tax contribution \xC2\xA3%.6f\n", tax_con);
-   printf("Take home salary \xC2\xA3%.6f\n", take_home);
+   printf("NI contribution £%.6f\n", ni_con);
+   printf("Tax contribution £%.6f\n", tax_con);
+   printf("Take home salary £%.6f\n", take_home);
 
    return 0;
  }
