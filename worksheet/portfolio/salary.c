@@ -24,13 +24,11 @@
       tax_con=0.0;
    }
    float take_home= sal_ni-tax_con;
-
-
-
     // Use only these print statement with appropriate formatting and variable names
-   printf("NI contribution £%.2f\n", ni_con);
-   printf("Tax contribution £%.2f\n", tax_con);
-   printf("Take home salary £%.2f\n", take_home);
+   printf("Salary £%.2f",salary);
+   printf("NI contribution £%.2f", ni_con);
+   printf("Tax contribution £%.2f", tax_con);
+   printf("Take home salary £%.2f", take_home);
 
    return 0;
  }
